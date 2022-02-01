@@ -1,0 +1,67 @@
+{
+	"name": "me_compendiums",
+	"title": "Human Readable Title",
+	"description": "Mass Effect 5e Compendium",
+	"author": "Alex",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.9.0",
+	"compatibleCoreVersion": "0.9.6",
+	"manifest": "ManifestURLhere",
+	"download": "DownloadURLhere",
+	"packs": [
+	{
+		"name": "me_backgrounds",
+		"label": "Mass Effect Backgrounds",
+		"path": "./mass-effect-backgrounds.db",
+		"entity": "Item"
+	},
+	{
+		"name": "me_classes",
+		"label": "Mass Effect Classes",
+		"path": "./mass-effect-classes.db",
+		"entity": "Item"
+	},
+	{
+		"name": "me_class_features",
+		"label": "Mass Effect Class Features",
+		"path": "./mass-effect-class-features.db",
+		"entity": "Item"
+	},
+	{
+		"name": "me_feats",
+		"label": "Mass Effect Feats",
+		"path": "./mass-effect-class-feats.db",
+		"entity": "Item"
+	},
+	{
+		"name": "me_races",
+		"label": "Mass Effect Races",
+		"path": "./mass-effect-races.db",
+		"entity": "Item"
+	},
+	{
+		"name": "me_racial_features",
+		"label": "Mass Effect Racial Features",
+		"path": "./mass-effect-racial-features.db",
+		"entity": "Item"
+	},
+	{
+		"name": "me_biotic_spells",
+		"label": "Mass Effect Biotics",
+		"path": "./me5e-biotic-spells.db",
+		"entity": "Item"
+	},
+	{
+		"name": "me_combat_powers",
+		"label": "Mass Effect Combat Powers",
+		"path": "./me5e-combat-powers.db",
+		"entity": "Item"
+	},
+	{
+		"name": "me_tech_powers",
+		"label": "Mass Effect Tech Powers",
+		"path": "./me5e-tech-powers.db",
+		"entity": "Item"
+	}
+	]
+}
